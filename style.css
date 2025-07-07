@@ -49,13 +49,16 @@ h1 {
 
 div:first-child {
     background-color: aqua;
-    transform: translateX(50%)
+    /* transform: translateX(50%) */
+    transform: rotateX(124deg);
 }
 div:nth-child(2) {
     background-color: rgb(222, 118, 231);
-    transform: translateY(2rem);
+    /* transform: translateY(2rem); */
+    transform: rotateY(45deg);
 }
 div:nth-child(3) {
     background-color: orangered;
-    transform: translate(-50%, -2rem);
+    /* transform: translate(-50%, -2rem); */
+    transform: rotateZ(45deg);
 }
