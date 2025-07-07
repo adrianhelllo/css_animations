@@ -51,17 +51,20 @@ div:first-child {
     background-color: aqua;
     /* transform: translateX(50%) */
     /* transform: rotateX(124deg); */
-    transform: scaleX(120%)
+    /* transform: scaleX(120%) */
+    transform: skewX(-10deg)
 }
 div:nth-child(2) {
     background-color: rgb(222, 118, 231);
     /* transform: translateY(2rem); */
     /* transform: rotateY(45deg); */
-    transform: scaleY(50%);
+    /* transform: scaleY(50%); */
+    transform: skewY(20deg)
 }
 div:nth-child(3) {
     background-color: orangered;
     /* transform: translate(-50%, -2rem); */
     /* transform: rotate(10deg); */
-    transform: scale(30%, 160%)
+    /* transform: scale(30%, 160%) */
+    transform: skew(-10deg, -10deg)
 }
