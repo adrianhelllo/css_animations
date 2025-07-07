@@ -49,6 +49,7 @@ h1 {
 
 div:first-child {
     background-color: aqua;
+    transform: translateX(50%)
 }
 div:nth-child(2) {
     background-color: rgb(222, 118, 231);
