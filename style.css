@@ -63,4 +63,5 @@ div:nth-child(3) {
     background-color: orangered;
     /* transform: translate(-50%, -2rem); */
     /* transform: rotate(10deg); */
+    transform: scale(30%, 160%)
 }
