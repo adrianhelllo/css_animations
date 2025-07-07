@@ -3,7 +3,7 @@
 :root {
     --BG-COLOR: rgb(255, 228, 196);
     --CARD-COLOR: rgb(223, 199, 171);
-    --SHADOW-COLOR: rgb(63, 56, 47);
+    --SHADOW-COLOR: rgba(63, 56, 47, 0.5);
 }
 
 * {
@@ -45,4 +45,14 @@ div {
 
 h1 {
     font-size: 1rem;
+}
+
+div:first-child {
+    background-color: aqua;
+}
+div:nth-child(2) {
+    background-color: rgb(222, 118, 231);
+}
+div:nth-child(3) {
+    background-color: orangered;
 }
