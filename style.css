@@ -50,15 +50,16 @@ h1 {
 div:first-child {
     background-color: aqua;
     /* transform: translateX(50%) */
-    transform: rotateX(124deg);
+    /* transform: rotateX(124deg); */
+    transform: scaleX(120%)
 }
 div:nth-child(2) {
     background-color: rgb(222, 118, 231);
     /* transform: translateY(2rem); */
-    transform: rotateY(45deg);
+    /* transform: rotateY(45deg); */
 }
 div:nth-child(3) {
     background-color: orangered;
     /* transform: translate(-50%, -2rem); */
-    transform: rotate(10deg);
+    /* transform: rotate(10deg); */
 }
