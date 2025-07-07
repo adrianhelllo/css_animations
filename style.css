@@ -75,8 +75,7 @@ div:hover {
     /* transition-property: opacity, transform;
     transition-duration: 0.5s, 1s;
     transition-delay: 0.5s; */
-    transition-timing-function: ease-in-out;
-    transition: all 1s 0.5s
+    transition: all 1s ease-in-out 0.5s
 }
 
 div:last-child:hover {
