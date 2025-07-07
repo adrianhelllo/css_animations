@@ -57,6 +57,7 @@ div:nth-child(2) {
     background-color: rgb(222, 118, 231);
     /* transform: translateY(2rem); */
     /* transform: rotateY(45deg); */
+    transform: scaleY(50%);
 }
 div:nth-child(3) {
     background-color: orangered;
